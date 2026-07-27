@@ -1,0 +1,237 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A one-page editorial website prototype for a contemporary cultural venue.">
+    <title>Convalis House | Website Prototype</title>
+    <link rel="preload" href="assets/editorial-collage.png" as="image">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header" data-header>
+      <a class="brand" href="#hero" aria-label="Convalis House home">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span>Convalis House</span>
+      </a>
+
+      <button class="menu-button" type="button" aria-label="Open menu" aria-expanded="false" data-menu-button>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="site-nav" aria-label="Main navigation" data-nav>
+        <a href="#collections">Collections</a>
+        <a href="#programme">Programme</a>
+        <a href="#visit">Visit</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <nav class="section-rail" aria-label="Page sections">
+      <a href="#hero" aria-label="Intro" data-rail-link></a>
+      <a href="#collections" aria-label="Collections" data-rail-link></a>
+      <a href="#programme" aria-label="Programme" data-rail-link></a>
+      <a href="#visit" aria-label="Visit" data-rail-link></a>
+      <a href="#contact" aria-label="Contact" data-rail-link></a>
+    </nav>
+
+    <main id="main">
+      <section class="hero panel" id="hero" data-section>
+        <div class="hero-copy reveal">
+          <p class="eyebrow">Contemporary art house</p>
+          <h1>Convalis et malesuada sed</h1>
+          <p class="lede">
+            A compact cultural venue prototype with exhibitions, private views, late openings, and a moody editorial identity.
+          </p>
+          <div class="hero-actions" aria-label="Primary actions">
+            <a class="button button-primary" href="#visit">Plan a visit</a>
+            <a class="button button-secondary" href="#collections">Explore work</a>
+          </div>
+        </div>
+
+        <div class="hero-art reveal" aria-label="Editorial collage artwork">
+          <img src="assets/editorial-collage.png" alt="Classical sculpture collage with lime and orange abstract forms">
+          <span class="paint-streak paint-streak-one" aria-hidden="true"></span>
+          <span class="paint-streak paint-streak-two" aria-hidden="true"></span>
+        </div>
+
+        <aside class="hero-stats reveal" aria-label="Venue highlights">
+          <div>
+            <strong>03</strong>
+            <span>gallery floors</span>
+          </div>
+          <div>
+            <strong>28</strong>
+            <span>featured works</span>
+          </div>
+          <div>
+            <strong>21:00</strong>
+            <span>Friday late</span>
+          </div>
+        </aside>
+      </section>
+
+      <section class="manifesto panel" id="collections" data-section>
+        <div class="side-label" aria-hidden="true">Curated collection</div>
+        <div class="manifesto-text reveal">
+          <p class="section-count">01</p>
+          <h2>
+            My entire soul, like <span>these</span> sweet <span>mornings</span> of spring which I enjoy with my whole heart.
+          </h2>
+        </div>
+        <div class="manifesto-card reveal">
+          <div class="portrait-crop">
+            <img src="assets/editorial-collage.png" alt="Cropped classical collage detail">
+          </div>
+          <p class="kicker">Convalis et malesuada sed</p>
+          <p>
+            Focused edit of sculpture, painting, objects, and sound arranged for intimate visits and collector previews.
+          </p>
+          <a href="#visit">Go to visit</a>
+        </div>
+      </section>
+
+      <section class="curations panel" aria-label="Featured collection themes">
+        <article class="curation reveal">
+          <div class="curation-media arch">
+            <img src="assets/editorial-collage.png" alt="Classical artwork detail">
+          </div>
+          <div class="curation-copy">
+            <p class="kicker">House edit</p>
+            <h3>A disciplined mix of old-world texture and modern friction.</h3>
+            <p>Objects are grouped by mood, material, and gesture, giving visitors an easy route through the collection.</p>
+          </div>
+        </article>
+
+        <article class="curation curation-offset reveal">
+          <div class="curation-media shield">
+            <img src="assets/gallery-interior.png" alt="Historic gallery interior with framed paintings">
+          </div>
+          <div class="curation-copy">
+            <p class="kicker">Private rooms</p>
+            <h3>Quiet viewing spaces built for slower, more deliberate encounters.</h3>
+            <p>Timed entry, compact groups, and hosted walkthroughs keep the experience personal without feeling staged.</p>
+          </div>
+        </article>
+
+        <article class="curation reveal">
+          <div class="curation-media round">
+            <img src="assets/editorial-collage.png" alt="Sculpture and painting collage detail">
+          </div>
+          <div class="curation-copy">
+            <p class="kicker">Evening salon</p>
+            <h3>Late openings with talks, chamber sound, and seasonal tables.</h3>
+            <p>A simple events layer gives the site enough commercial shape for launches, patrons, and partnerships.</p>
+          </div>
+        </article>
+      </section>
+
+      <section class="programme panel" id="programme" data-section>
+        <div class="shape-field" aria-hidden="true">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="programme-copy reveal">
+          <p class="section-count">02</p>
+          <h2>Current programme</h2>
+          <p>
+            A stripped-back events section for previews, tours, artist dinners, and collector evenings.
+          </p>
+        </div>
+        <div class="event-list reveal">
+          <article>
+            <time datetime="2026-08-14">14 Aug</time>
+            <div>
+              <h3>Private preview</h3>
+              <p>Hosted introduction to the summer edit with drinks in the lower gallery.</p>
+            </div>
+          </article>
+          <article>
+            <time datetime="2026-09-04">04 Sep</time>
+            <div>
+              <h3>Friday late</h3>
+              <p>Extended evening opening with chamber sound and guided routes.</p>
+            </div>
+          </article>
+          <article>
+            <time datetime="2026-09-21">21 Sep</time>
+            <div>
+              <h3>Collector breakfast</h3>
+              <p>A small-format morning visit with the director and selected works.</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="gallery panel">
+        <div class="gallery-title reveal">
+          <p class="eyebrow">Rooms and details</p>
+          <h2>CONVALLIS ET</h2>
+        </div>
+        <div class="gallery-grid reveal">
+          <figure class="gallery-main">
+            <img src="assets/gallery-interior.png" alt="Dark historic gallery room with paintings and display case">
+          </figure>
+          <figure>
+            <img src="assets/editorial-collage.png" alt="Close crop of marble sculpture collage">
+          </figure>
+          <div class="info-tile">
+            <p class="kicker">Limited opening</p>
+            <h3>18:30 chamber dinner</h3>
+            <p>Hosted evenings for 20 guests, arranged by request.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="visit panel" id="visit" data-section>
+        <div class="visit-image reveal">
+          <img src="assets/gallery-interior.png" alt="Historic gallery room prepared for visitors">
+        </div>
+        <div class="visit-card reveal">
+          <p class="section-count">03</p>
+          <h2>Visit the house</h2>
+          <p>
+            Open Thursday to Sunday with late access on Fridays. Private visits and venue enquiries are handled by appointment.
+          </p>
+          <ul class="visit-details">
+            <li>
+              <span>Hours</span>
+              <strong>Thu-Sun, 11:00-18:00</strong>
+            </li>
+            <li>
+              <span>Late</span>
+              <strong>Friday until 21:00</strong>
+            </li>
+            <li>
+              <span>Location</span>
+              <strong>Old quarter, central district</strong>
+            </li>
+          </ul>
+          <a class="button button-primary" href="mailto:visits@convalishouse.com">Request a visit</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer" id="contact" data-section>
+      <div class="footer-pattern" aria-hidden="true">GLORIUS GLORIUS GLORIUS</div>
+      <div class="footer-inner reveal">
+        <p class="eyebrow">Enquiries</p>
+        <a class="footer-email" href="mailto:visits@convalishouse.com">visits@convalishouse.com</a>
+        <p>Appointments, private events, and partnership enquiries are handled directly by the studio team.</p>
+      </div>
+      <div class="footer-nav" aria-label="Footer navigation">
+        <a href="#hero">Top</a>
+        <a href="#collections">Collections</a>
+        <a href="#programme">Programme</a>
+        <a href="#visit">Visit</a>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
